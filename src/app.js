@@ -36,7 +36,6 @@ app.use(adminRouters)
 app.use(adminNotesRouters)
 
 
-
 app.listen(PORT,()=>{
     console.log("Server running at port "+PORT)
 })
