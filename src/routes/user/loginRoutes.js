@@ -9,7 +9,7 @@ router.post('/login', async (req, res) => {
         try {
             const user = await users.findOne({phoneno:req.body.phoneno})
 
-        if(user.tokens.length!==1){
+        if(user.tokens.length!==0){
             res.status(405).send()
             return
         }
