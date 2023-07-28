@@ -20,15 +20,10 @@ const PORT=process.env.PORT || 8000
 const app=express()
 
 // Increase payload size limit (e.g., 100MB)
-const corsOptions = {
-    origin: 'https://shubhamguitarclasses.netlify.app', // Replace this with your frontend's URL
-    optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
-  };
-  
-app.use(cors(corsOptions)); 
+app.use(cors()); 
 app.use(bodyParser.json({ limit: '100mb' }));
 app.use(bodyParser.urlencoded({ limit: '100mb', extended: true }));
-app.use(express.json())
+app.use()
 
 
 app.use(userImageRouters)
