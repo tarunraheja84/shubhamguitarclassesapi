@@ -21,7 +21,7 @@ const app=express()
 
 // Increase payload size limit (e.g., 100MB)
 const corsOptions = {
-    origin: 'https://rad-mermaid-f9ffe7.netlify.app', // Replace this with your frontend's URL
+    origin: 'https://shubhamguitarclasses.vercel.app', // Replace this with your frontend's URL
     optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
   };
   
