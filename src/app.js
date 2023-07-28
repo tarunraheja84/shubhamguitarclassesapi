@@ -20,7 +20,7 @@ const PORT=process.env.PORT || 8000
 const app=express()
 
 // Increase payload size limit (e.g., 100MB)
-app.use(cors({origin:["https://shubhamguitarclasses.netlify.app","https://rad-mermaid-f9ffe7.netlify.app/"]})
+app.use(cors(origin:"https://rad-mermaid-f9ffe7.netlify.app/"))
 app.use(bodyParser.json({ limit: '100mb' }));
 app.use(bodyParser.urlencoded({ limit: '100mb', extended: true }));
 app.use(express.json())
