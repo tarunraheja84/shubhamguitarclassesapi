@@ -1,9 +1,6 @@
 
 ### Shubham's Guitar Classes - Backend
 
-```markdown
-# Shubham's Guitar Classes - Backend
-
 Shubham's Guitar Classes is a fully functional website built using Node.js, Express.js, and MongoDB for the backend. The backend handles user authentication, data storage, and communication with the frontend.
 
 ## Features
